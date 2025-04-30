@@ -1,0 +1,264 @@
+Country,Adoption_Rank,Adoption_Score,Regulation_Status,Mining_Share,Top_Coins,Wallet_Usage_Rate,Major_Exchange,Blockchain_Patents,Major_Hack_Event,Adoption_Trend,Average_Transaction_Fee_USD,Crypto_ATMs,Digital_Law_Clarity,Education_Initiatives,Energy_Source,NFT_Adoption,CBDC_Development
+United States of America,1,0.72,Friendly,11.0%,"Bitcoin, Ethereum",27%,Binance,578,Yes,Declining,8.93,1375,Clear,No,Mixed,High,Yes
+China,2,0.68,Friendly,3.7%,"Bitcoin, Ethereum",74%,Huobi,47,Yes,Stable,3.5,449,Ambiguous,Yes,Unknown,Medium,No
+India,3,0.77,Restricted,16.8%,"Ethereum, Polkadot",45%,Coinbase,183,No,Growing,13.28,1262,Ambiguous,No,Coal,Medium,Ongoing
+Germany,4,0.52,Friendly,38.3%,"Bitcoin, Cardano",23%,Binance,409,Yes,Stable,1.35,83,Ambiguous,No,Unknown,Low,Yes
+United Kingdom,5,0.53,Friendly,10.6%,"Bitcoin, Ethereum, USDT",68%,Coincheck,147,No,Stable,0.19,1397,Ambiguous,No,Renewable,Low,No
+Russia,6,0.35,Friendly,25.1%,"Bitcoin, Cardano",34%,Binance,66,Yes,Declining,4.4,154,Ambiguous,Yes,Unknown,High,Ongoing
+Japan,7,0.8,Banned,34.2%,"Bitcoin, USDT",58%,Kraken,484,No,Growing,9.33,1101,Clear,No,Mixed,None,No
+Canada,8,0.41,Friendly,26.8%,"Bitcoin, USDT",31%,Coincheck,270,Yes,Growing,9.77,407,Clear,Yes,Coal,None,No
+Australia,9,0.6,Friendly,37.0%,"Bitcoin, Dogecoin",38%,Bitstamp,77,Yes,Growing,4.67,304,Ambiguous,Yes,Unknown,Medium,Ongoing
+Brazil,10,0.83,Restricted,16.0%,"Bitcoin, USDT",37%,Huobi,342,Yes,Declining,13.3,486,Clear,No,Unknown,None,Yes
+France,11,0.73,Friendly,36.6%,"Ethereum, Polkadot",28%,Kraken,162,Yes,Declining,4.98,1497,Ambiguous,No,Renewable,Low,No
+South Korea,12,0.78,Friendly,29.9%,"Bitcoin, Litecoin",61%,Bitstamp,244,Yes,Growing,0.3,1263,Clear,No,Mixed,Medium,Ongoing
+Singapore,13,0.63,Friendly,1.9%,"Bitcoin, USDT",29%,WazirX,452,Yes,Stable,10.13,1350,Ambiguous,Yes,Unknown,None,No
+Switzerland,14,0.55,Friendly,18.7%,"Ethereum, Solana",80%,Coinbase,137,No,Declining,9.08,1166,Clear,Yes,Coal,High,Yes
+Netherlands,15,0.8,Friendly,11.7%,"Bitcoin, Ripple",68%,Coinbase,289,Yes,Declining,8.85,580,None,No,Unknown,Low,Ongoing
+South Africa,16,0.63,Friendly,25.0%,"Bitcoin, Dogecoin",35%,WazirX,402,Yes,Growing,13.58,1350,None,Yes,Coal,High,No
+United Arab Emirates,17,0.65,Restricted,21.2%,"Bitcoin, Ethereum, USDT",51%,Bitfinex,39,Yes,Growing,0.66,1275,Ambiguous,No,Unknown,High,Yes
+Nigeria,18,0.9,Restricted,33.3%,"Ethereum, Solana",40%,Coinbase,266,Yes,Declining,6.67,120,None,Yes,Renewable,Medium,Yes
+Turkey,19,0.36,Friendly,2.8%,"Bitcoin, Dogecoin",26%,WazirX,506,Yes,Growing,10.55,1386,Ambiguous,No,Mixed,Medium,Yes
+Mexico,20,0.47,Restricted,16.9%,"Bitcoin, Ethereum",79%,BitFlyer,339,No,Stable,2.38,1332,Clear,No,Renewable,Low,Yes
+Argentina,21,0.95,Restricted,17.5%,"Bitcoin, Dogecoin",67%,Binance,273,Yes,Declining,7.16,109,Ambiguous,Yes,Renewable,None,No
+Indonesia,22,0.34,Friendly,22.2%,"Bitcoin, Binance Coin",38%,Coinbase,92,Yes,Growing,1.89,519,Clear,No,Renewable,Low,No
+Vietnam,23,0.45,Banned,34.4%,"Bitcoin, USDT",75%,BitFlyer,305,No,Growing,3.75,908,Clear,No,Mixed,Medium,No
+Philippines,24,0.44,Friendly,37.4%,"Bitcoin, Binance Coin",70%,BitFlyer,504,No,Growing,8.7,793,None,No,Coal,None,Yes
+Thailand,25,0.42,Friendly,17.2%,"Bitcoin, Litecoin",62%,Bitfinex,75,Yes,Declining,12.56,1447,None,Yes,Renewable,Low,No
+Malaysia,26,0.34,Restricted,32.0%,"Bitcoin, USDT",41%,BitFlyer,214,No,Growing,1.71,134,Clear,Yes,Mixed,High,Yes
+Saudi Arabia,27,0.39,Friendly,18.5%,"Bitcoin, USDT",66%,Coincheck,120,Yes,Growing,10.77,159,None,Yes,Mixed,High,No
+Spain,28,0.72,Friendly,0.6%,"Bitcoin, USDT",40%,WazirX,436,No,Growing,14.92,1405,Ambiguous,No,Mixed,High,Yes
+Italy,29,0.61,Restricted,36.1%,"Bitcoin, Ripple",58%,Coinbase,419,No,Growing,2.3,1037,Ambiguous,Yes,Unknown,High,Yes
+Sweden,30,0.9,Restricted,11.4%,"Bitcoin, Dogecoin",72%,WazirX,214,No,Declining,5.46,522,None,Yes,Coal,Low,Yes
+Nigeria,15,0.3,Unknown,5.1%,"Bitcoin, USDT",54%,None,148,No,Stable,11.94,492,Ambiguous,Yes,Renewable,Low,Yes
+Egypt,16,0.32,Restricted,19.2%,"Bitcoin, USDT",31%,None,17,Yes,Declining,12.77,523,Clear,No,Mixed,None,Ongoing
+Pakistan,17,0.35,Banned,14.1%,"Bitcoin, USDT",51%,None,110,No,Stable,13.73,374,Clear,Yes,Unknown,Low,Yes
+Bangladesh,18,0.38,Friendly,19.9%,"Bitcoin, USDT",58%,None,129,Yes,Declining,7.36,234,Clear,Yes,Unknown,High,No
+Vietnam,19,0.4,Unknown,6.0%,"Bitcoin, USDT",39%,None,20,No,Growing,5.87,1046,Ambiguous,No,Mixed,Medium,Yes
+Turkey,20,0.42,Unknown,1.3%,"Bitcoin, USDT",47%,None,85,Yes,Declining,1.65,691,Clear,No,Coal,Medium,Yes
+Iran,21,0.45,Restricted,9.3%,"Bitcoin, USDT",33%,None,23,No,Stable,9.77,649,Ambiguous,Yes,Renewable,Medium,No
+Iraq,22,0.48,Banned,3.0%,"Bitcoin, USDT",55%,None,82,Yes,Growing,2.0,1209,Ambiguous,Yes,Coal,None,No
+Ukraine,23,0.5,Friendly,9.3%,"Bitcoin, USDT",45%,None,133,No,Declining,12.06,600,Clear,Yes,Renewable,Medium,Yes
+Philippines,24,0.52,Unknown,9.4%,"Bitcoin, USDT",26%,None,17,Yes,Stable,8.11,1043,Clear,Yes,Coal,Low,Yes
+Thailand,25,0.55,Unknown,11.0%,"Bitcoin, USDT",60%,None,70,No,Growing,8.09,233,Clear,No,Coal,None,Ongoing
+Mexico,26,0.57,Restricted,10.6%,"Bitcoin, USDT",40%,None,27,Yes,Stable,6.65,294,Clear,Yes,Coal,None,Yes
+Argentina,27,0.6,Banned,10.1%,"Bitcoin, USDT",21%,None,93,No,Declining,11.89,1108,Ambiguous,No,Coal,High,Ongoing
+South Africa,28,0.62,Friendly,7.1%,"Bitcoin, USDT",55%,None,123,Yes,Declining,4.72,218,None,Yes,Mixed,Medium,Yes
+Indonesia,29,0.65,Unknown,1.9%,"Bitcoin, USDT",51%,None,14,No,Growing,9.29,779,None,No,Unknown,None,No
+Aruba,81,0.64,Unknown,4.2%,"Ethereum, Polkadot",59%,Binance,23,Yes,Declining,13.46,113,None,Yes,Unknown,High,Yes
+Afghanistan,47,0.25,Restricted,6.6%,"Bitcoin, USDT",24%,Kraken,214,No,Growing,10.96,1244,Clear,No,Mixed,Low,Ongoing
+Angola,153,0.37,Friendly,3.4%,"Ethereum, Polkadot",66%,Kraken,167,No,Stable,4.38,668,None,No,Mixed,None,Ongoing
+Anguilla,66,0.57,Unknown,4.6%,"Bitcoin, Ethereum",36%,Kraken,54,Yes,Stable,3.52,269,Clear,No,Mixed,Medium,No
+Åland Islands,63,0.57,Banned,5.3%,"Bitcoin, USDT",14%,Coinbase,135,Yes,Stable,7.67,1182,None,No,Renewable,High,No
+Albania,145,0.44,Restricted,9.5%,"Ethereum, Polkadot",50%,None,217,Yes,Growing,4.79,442,Clear,No,Renewable,Low,No
+Andorra,125,0.52,Restricted,9.9%,"Ethereum, Polkadot",25%,Binance,292,No,Growing,14.36,855,None,Yes,Renewable,Low,No
+Armenia,72,0.37,Unknown,6.8%,"Ethereum, Polkadot",59%,Coinbase,65,No,Declining,0.81,760,None,Yes,Mixed,Low,No
+American Samoa,160,0.41,Unknown,7.0%,"Bitcoin, Ethereum",62%,Binance,73,No,Growing,4.29,1439,Clear,Yes,Coal,Low,No
+Antarctica,158,0.63,Unknown,7.4%,"Ethereum, Polkadot",10%,Coinbase,108,No,Declining,2.32,325,Ambiguous,No,Mixed,None,Yes
+French Southern Territories,125,0.64,Restricted,0.9%,"Bitcoin, USDT",30%,Coinbase,216,No,Declining,1.18,1091,Clear,No,Renewable,None,Ongoing
+Antigua and Barbuda,137,0.23,Banned,2.2%,"Ethereum, Polkadot",62%,Binance,47,Yes,Declining,14.53,1383,Clear,Yes,Renewable,Low,No
+Austria,143,0.59,Restricted,9.2%,"Ethereum, Polkadot",26%,None,277,No,Declining,10.16,1061,Clear,Yes,Unknown,Medium,Yes
+Azerbaijan,123,0.52,Unknown,5.6%,"Ethereum, Polkadot",41%,Kraken,102,No,Declining,0.58,1351,Clear,No,Mixed,None,Yes
+Burundi,148,0.42,Banned,7.8%,"Bitcoin, Ethereum",61%,None,145,Yes,Stable,6.41,1465,Ambiguous,No,Mixed,Low,Ongoing
+Belgium,70,0.61,Restricted,5.6%,"Bitcoin, Ethereum",50%,Kraken,20,No,Stable,10.8,1411,Clear,No,Mixed,Low,No
+Benin,131,0.34,Unknown,2.5%,"Ethereum, Polkadot",56%,Binance,172,No,Declining,2.53,257,Ambiguous,No,Unknown,None,No
+"Bonaire, Sint Eustatius and Saba",154,0.49,Friendly,5.6%,"Bitcoin, USDT",53%,Coinbase,135,No,Stable,2.42,1041,Clear,Yes,Coal,Low,Ongoing
+Burkina Faso,53,0.69,Unknown,4.7%,"Bitcoin, USDT",67%,Kraken,47,No,Stable,12.18,1421,None,No,Mixed,High,Ongoing
+Bulgaria,82,0.37,Unknown,0.7%,"Bitcoin, Ethereum",37%,Kraken,155,Yes,Declining,11.94,376,Ambiguous,No,Coal,Low,Yes
+Bahrain,147,0.41,Banned,7.9%,"Bitcoin, Ethereum",37%,None,55,No,Stable,1.57,1221,Clear,Yes,Mixed,Low,Yes
+Bahamas,180,0.24,Unknown,7.2%,"Bitcoin, USDT",24%,Binance,91,No,Growing,1.32,1080,None,No,Unknown,High,No
+Bosnia and Herzegovina,80,0.47,Restricted,9.3%,"Bitcoin, USDT",61%,Kraken,143,No,Stable,1.27,11,None,No,Mixed,High,No
+Saint Barthélemy,195,0.28,Unknown,2.8%,"Bitcoin, USDT",15%,Kraken,189,Yes,Stable,8.17,553,Clear,No,Renewable,High,Yes
+Belarus,45,0.36,Unknown,5.8%,"Ethereum, Polkadot",20%,Coinbase,238,No,Declining,3.08,1455,Ambiguous,No,Renewable,Medium,Yes
+Belize,121,0.21,Restricted,3.5%,"Ethereum, Polkadot",15%,Coinbase,78,Yes,Stable,6.92,603,Clear,Yes,Renewable,Low,Yes
+Bermuda,192,0.58,Restricted,8.3%,"Ethereum, Polkadot",54%,Coinbase,194,No,Declining,3.56,578,None,No,Unknown,High,Ongoing
+"Bolivia, Plurinational State of",185,0.57,Unknown,9.3%,"Ethereum, Polkadot",59%,Binance,96,No,Declining,8.22,1337,Ambiguous,Yes,Coal,Medium,No
+Barbados,33,0.55,Restricted,2.6%,"Ethereum, Polkadot",47%,None,59,Yes,Growing,0.54,1260,Clear,No,Mixed,Low,Ongoing
+Brunei Darussalam,78,0.23,Restricted,8.9%,"Ethereum, Polkadot",11%,Coinbase,159,Yes,Stable,10.03,47,Ambiguous,Yes,Mixed,High,Ongoing
+Bhutan,74,0.64,Restricted,9.3%,"Ethereum, Polkadot",59%,Binance,66,Yes,Declining,14.01,586,None,Yes,Unknown,Medium,No
+Bouvet Island,181,0.62,Friendly,7.0%,"Bitcoin, USDT",49%,None,63,No,Stable,4.29,1173,Clear,Yes,Coal,High,No
+Botswana,191,0.27,Restricted,0.7%,"Ethereum, Polkadot",33%,None,224,Yes,Growing,3.15,995,Ambiguous,Yes,Mixed,Low,Yes
+Central African Republic,157,0.37,Friendly,3.3%,"Bitcoin, Ethereum",33%,Kraken,42,No,Declining,4.33,877,Ambiguous,Yes,Unknown,High,Yes
+Cocos (Keeling) Islands,164,0.37,Banned,7.4%,"Bitcoin, Ethereum",20%,Binance,95,Yes,Growing,5.36,1063,Ambiguous,No,Mixed,Medium,Yes
+Chile,170,0.22,Restricted,8.6%,"Bitcoin, USDT",58%,Binance,73,Yes,Growing,11.4,1212,Clear,No,Renewable,None,No
+Côte d'Ivoire,189,0.57,Unknown,5.9%,"Bitcoin, Ethereum",65%,Binance,209,No,Growing,13.45,838,None,Yes,Renewable,High,No
+Cameroon,78,0.39,Friendly,2.0%,"Ethereum, Polkadot",60%,Binance,31,Yes,Growing,9.06,1288,Clear,Yes,Renewable,Low,No
+"Congo, The Democratic Republic of the",148,0.52,Unknown,3.0%,"Bitcoin, USDT",50%,Kraken,237,Yes,Growing,12.48,828,Ambiguous,No,Coal,High,No
+Congo,170,0.48,Restricted,8.4%,"Ethereum, Polkadot",19%,Coinbase,215,Yes,Stable,10.56,32,None,Yes,Unknown,Low,No
+Cook Islands,74,0.51,Restricted,0.8%,"Ethereum, Polkadot",44%,Kraken,50,No,Stable,10.86,1393,Ambiguous,No,Unknown,None,No
+Colombia,86,0.65,Unknown,2.4%,"Ethereum, Polkadot",69%,Kraken,11,No,Declining,1.75,957,None,Yes,Renewable,Low,No
+Comoros,149,0.47,Restricted,3.8%,"Ethereum, Polkadot",53%,Coinbase,17,Yes,Growing,2.78,96,Ambiguous,Yes,Unknown,Medium,Yes
+Cabo Verde,193,0.7,Friendly,3.4%,"Bitcoin, Ethereum",41%,Binance,35,Yes,Growing,6.36,919,Ambiguous,Yes,Unknown,Low,No
+Costa Rica,186,0.53,Banned,7.9%,"Bitcoin, Ethereum",56%,None,260,Yes,Growing,6.25,752,Clear,Yes,Coal,Low,Yes
+Cuba,81,0.33,Banned,3.7%,"Ethereum, Polkadot",41%,Coinbase,181,No,Declining,4.12,1380,Clear,Yes,Renewable,Low,No
+Curaçao,37,0.4,Friendly,8.0%,"Bitcoin, Ethereum",17%,Coinbase,92,No,Declining,12.29,295,Clear,Yes,Renewable,Medium,Ongoing
+Christmas Island,162,0.48,Restricted,7.7%,"Bitcoin, USDT",53%,Kraken,175,No,Growing,3.92,268,Clear,No,Renewable,Medium,Ongoing
+Cayman Islands,159,0.21,Banned,2.3%,"Bitcoin, USDT",34%,Kraken,201,Yes,Declining,6.86,419,Clear,No,Unknown,None,No
+Cyprus,153,0.36,Friendly,7.2%,"Bitcoin, Ethereum",19%,None,203,Yes,Declining,4.91,145,Clear,No,Unknown,Low,Yes
+Czechia,107,0.39,Friendly,1.9%,"Ethereum, Polkadot",18%,Coinbase,34,No,Declining,3.92,1159,Ambiguous,No,Unknown,None,No
+Djibouti,44,0.61,Restricted,8.5%,"Ethereum, Polkadot",69%,Binance,107,No,Growing,4.51,350,None,No,Coal,Low,Ongoing
+Dominica,56,0.68,Banned,1.0%,"Ethereum, Polkadot",50%,Binance,51,No,Declining,12.44,962,Clear,Yes,Coal,Medium,Ongoing
+Denmark,186,0.36,Friendly,3.0%,"Bitcoin, Ethereum",68%,Kraken,238,No,Declining,9.68,1402,Ambiguous,Yes,Unknown,None,No
+Dominican Republic,114,0.41,Restricted,8.7%,"Bitcoin, Ethereum",18%,Kraken,55,No,Stable,14.17,300,Clear,No,Renewable,Medium,No
+Algeria,152,0.61,Restricted,3.1%,"Bitcoin, USDT",44%,Binance,207,No,Growing,14.49,884,Clear,No,Renewable,High,Yes
+Ecuador,100,0.6,Unknown,0.3%,"Bitcoin, USDT",39%,Binance,278,No,Stable,0.44,1092,Clear,Yes,Coal,Medium,Ongoing
+Eritrea,148,0.56,Restricted,4.6%,"Ethereum, Polkadot",64%,Kraken,41,Yes,Declining,11.54,798,None,Yes,Coal,High,Yes
+Western Sahara,79,0.64,Banned,9.9%,"Bitcoin, USDT",70%,Kraken,82,Yes,Declining,6.85,820,Clear,No,Coal,Medium,Ongoing
+Estonia,122,0.59,Friendly,2.2%,"Ethereum, Polkadot",60%,Coinbase,265,No,Declining,3.15,1403,None,Yes,Coal,None,Yes
+Ethiopia,115,0.25,Friendly,4.8%,"Bitcoin, USDT",24%,Coinbase,174,No,Declining,3.14,576,None,Yes,Renewable,None,No
+Finland,185,0.24,Unknown,4.9%,"Ethereum, Polkadot",14%,Coinbase,49,Yes,Declining,14.45,967,Ambiguous,No,Renewable,Medium,No
+Fiji,163,0.42,Unknown,2.5%,"Ethereum, Polkadot",57%,Coinbase,40,No,Stable,5.15,743,Ambiguous,Yes,Mixed,None,Ongoing
+Falkland Islands (Malvinas),67,0.59,Friendly,8.2%,"Bitcoin, USDT",40%,Kraken,175,No,Growing,0.38,165,None,No,Mixed,Medium,Yes
+Faroe Islands,179,0.38,Restricted,9.3%,"Bitcoin, Ethereum",34%,Kraken,170,Yes,Stable,10.57,633,None,Yes,Renewable,Medium,No
+"Micronesia, Federated States of",97,0.23,Unknown,4.1%,"Bitcoin, USDT",29%,Kraken,184,No,Growing,8.4,724,None,No,Renewable,None,No
+Gabon,179,0.38,Restricted,1.0%,"Bitcoin, Ethereum",11%,Kraken,48,No,Growing,8.39,334,Ambiguous,No,Mixed,High,No
+Georgia,167,0.68,Friendly,9.8%,"Bitcoin, Ethereum",39%,Kraken,59,Yes,Growing,12.89,1012,Ambiguous,Yes,Renewable,High,Yes
+Guernsey,106,0.23,Friendly,0.5%,"Bitcoin, USDT",15%,Coinbase,209,Yes,Growing,1.48,608,Clear,No,Coal,None,No
+Ghana,119,0.68,Restricted,5.4%,"Bitcoin, USDT",65%,Binance,275,No,Growing,10.06,175,Clear,Yes,Unknown,Medium,Ongoing
+Gibraltar,119,0.45,Restricted,2.2%,"Bitcoin, Ethereum",30%,None,98,No,Growing,14.48,109,None,Yes,Mixed,Medium,No
+Guinea,181,0.43,Friendly,8.8%,"Bitcoin, Ethereum",31%,Kraken,170,No,Declining,3.02,391,Clear,No,Coal,None,Yes
+Guadeloupe,64,0.55,Unknown,0.1%,"Bitcoin, USDT",32%,Kraken,263,Yes,Declining,1.26,894,None,No,Mixed,High,Ongoing
+Gambia,169,0.37,Restricted,6.9%,"Bitcoin, Ethereum",19%,Kraken,86,Yes,Stable,3.51,142,None,No,Renewable,Low,Ongoing
+Guinea-Bissau,119,0.4,Restricted,1.9%,"Ethereum, Polkadot",33%,Kraken,173,No,Declining,12.64,117,None,Yes,Coal,None,Ongoing
+Equatorial Guinea,173,0.58,Banned,5.8%,"Bitcoin, Ethereum",15%,Binance,124,Yes,Declining,6.93,97,Clear,Yes,Coal,High,No
+Greece,195,0.35,Friendly,8.5%,"Bitcoin, Ethereum",46%,None,236,No,Declining,7.26,1099,None,Yes,Unknown,None,Yes
+Grenada,167,0.57,Unknown,1.4%,"Bitcoin, USDT",55%,Kraken,5,Yes,Growing,10.26,968,Ambiguous,Yes,Coal,None,Ongoing
+Greenland,143,0.34,Restricted,7.8%,"Ethereum, Polkadot",24%,None,241,No,Growing,11.3,239,Clear,No,Renewable,None,Yes
+Guatemala,147,0.28,Friendly,7.0%,"Bitcoin, USDT",29%,Kraken,184,Yes,Declining,2.05,1278,None,Yes,Renewable,None,Ongoing
+French Guiana,78,0.63,Unknown,9.9%,"Bitcoin, USDT",18%,Binance,173,Yes,Stable,10.29,1482,Clear,Yes,Renewable,High,No
+Guam,32,0.61,Banned,6.1%,"Ethereum, Polkadot",25%,None,299,Yes,Stable,11.91,1081,Ambiguous,Yes,Coal,Low,Yes
+Guyana,160,0.3,Friendly,2.7%,"Ethereum, Polkadot",17%,Coinbase,33,Yes,Growing,6.57,1308,None,No,Coal,Low,Ongoing
+Hong Kong,151,0.31,Friendly,1.9%,"Bitcoin, USDT",65%,Coinbase,248,Yes,Growing,13.15,124,None,No,Mixed,Low,No
+Heard Island and McDonald Islands,88,0.52,Restricted,1.7%,"Bitcoin, Ethereum",36%,None,127,Yes,Stable,12.32,1340,None,Yes,Coal,Low,Yes
+Honduras,130,0.43,Friendly,0.1%,"Bitcoin, USDT",42%,Kraken,30,No,Declining,14.3,75,Ambiguous,No,Mixed,Low,Ongoing
+Croatia,48,0.4,Friendly,2.9%,"Bitcoin, Ethereum",70%,Kraken,297,No,Stable,11.31,1400,Ambiguous,No,Renewable,Low,No
+Haiti,78,0.21,Friendly,4.9%,"Bitcoin, Ethereum",51%,Binance,98,No,Declining,11.83,1346,Ambiguous,Yes,Renewable,High,Ongoing
+Hungary,143,0.69,Friendly,3.3%,"Bitcoin, Ethereum",12%,None,8,No,Growing,12.12,888,Ambiguous,Yes,Unknown,Medium,No
+Isle of Man,180,0.21,Banned,7.3%,"Ethereum, Polkadot",18%,Coinbase,107,Yes,Stable,1.45,1277,Clear,Yes,Unknown,Medium,Yes
+British Indian Ocean Territory,112,0.47,Restricted,3.3%,"Bitcoin, USDT",46%,Coinbase,142,No,Growing,5.37,1104,Ambiguous,Yes,Unknown,Medium,No
+Ireland,189,0.53,Friendly,7.4%,"Ethereum, Polkadot",23%,None,244,Yes,Stable,2.48,387,Clear,Yes,Unknown,Medium,Yes
+"Iran, Islamic Republic of",155,0.27,Restricted,1.5%,"Ethereum, Polkadot",70%,Coinbase,169,Yes,Stable,2.06,217,None,Yes,Coal,High,Yes
+Iceland,150,0.48,Banned,8.9%,"Bitcoin, USDT",10%,Binance,285,No,Stable,5.37,8,None,Yes,Unknown,High,Ongoing
+Israel,91,0.66,Friendly,3.3%,"Bitcoin, USDT",11%,Coinbase,254,Yes,Declining,12.88,317,Ambiguous,No,Unknown,None,Yes
+Jamaica,91,0.56,Banned,9.3%,"Ethereum, Polkadot",13%,Binance,199,No,Declining,5.61,221,Ambiguous,No,Mixed,Low,Ongoing
+Jersey,172,0.66,Banned,5.1%,"Bitcoin, USDT",18%,Kraken,150,No,Stable,10.5,25,Clear,Yes,Unknown,Medium,No
+Jordan,100,0.55,Restricted,6.8%,"Ethereum, Polkadot",30%,Kraken,31,No,Stable,4.94,113,Clear,Yes,Renewable,Medium,Ongoing
+Kazakhstan,103,0.65,Unknown,8.6%,"Bitcoin, Ethereum",57%,Binance,175,Yes,Growing,9.47,1082,Clear,Yes,Coal,Medium,No
+Kenya,152,0.51,Unknown,2.4%,"Ethereum, Polkadot",38%,None,234,No,Stable,2.94,1141,None,Yes,Coal,High,Ongoing
+Kyrgyzstan,55,0.33,Friendly,9.7%,"Ethereum, Polkadot",43%,None,102,Yes,Growing,2.48,1141,None,No,Mixed,Low,Yes
+Cambodia,85,0.39,Friendly,8.5%,"Bitcoin, USDT",14%,Kraken,21,No,Declining,8.78,164,Clear,No,Unknown,Medium,No
+Kiribati,130,0.66,Restricted,8.4%,"Bitcoin, USDT",68%,None,246,No,Growing,2.28,68,Ambiguous,No,Renewable,High,Yes
+Saint Kitts and Nevis,184,0.53,Friendly,9.7%,"Ethereum, Polkadot",45%,None,212,No,Declining,8.07,447,Ambiguous,No,Mixed,None,No
+"Korea, Republic of",36,0.25,Unknown,7.7%,"Ethereum, Polkadot",15%,None,107,No,Stable,2.42,907,Clear,No,Coal,None,Ongoing
+Kuwait,150,0.2,Restricted,3.9%,"Ethereum, Polkadot",48%,Kraken,231,Yes,Stable,8.11,251,None,Yes,Renewable,Medium,Yes
+Lao People's Democratic Republic,123,0.7,Unknown,8.5%,"Bitcoin, Ethereum",57%,Binance,248,Yes,Stable,5.63,1355,None,Yes,Unknown,Low,Yes
+Lebanon,125,0.22,Unknown,8.2%,"Bitcoin, Ethereum",64%,Binance,206,No,Declining,11.44,1046,Clear,No,Coal,None,Yes
+Liberia,103,0.6,Restricted,9.3%,"Bitcoin, USDT",57%,Coinbase,193,Yes,Stable,7.48,38,Ambiguous,No,Coal,High,Ongoing
+Libya,32,0.66,Friendly,9.1%,"Bitcoin, Ethereum",53%,None,288,Yes,Declining,6.02,1446,None,No,Coal,None,Yes
+Saint Lucia,55,0.2,Banned,8.8%,"Ethereum, Polkadot",48%,Kraken,124,No,Growing,8.42,605,None,No,Mixed,None,Ongoing
+Liechtenstein,155,0.48,Friendly,7.9%,"Bitcoin, USDT",42%,Coinbase,202,Yes,Stable,9.93,92,None,No,Mixed,High,Ongoing
+Sri Lanka,79,0.47,Friendly,1.9%,"Bitcoin, USDT",59%,None,67,No,Growing,4.87,780,None,No,Mixed,Low,Yes
+Lesotho,62,0.24,Unknown,7.3%,"Ethereum, Polkadot",69%,Coinbase,168,No,Growing,11.34,721,Clear,No,Mixed,Medium,No
+Lithuania,171,0.27,Banned,4.5%,"Ethereum, Polkadot",50%,Coinbase,212,Yes,Declining,2.28,977,None,Yes,Unknown,Low,Ongoing
+Luxembourg,156,0.26,Restricted,5.6%,"Bitcoin, USDT",58%,None,225,No,Stable,3.29,86,Ambiguous,No,Coal,None,No
+Latvia,160,0.35,Banned,3.5%,"Ethereum, Polkadot",48%,Binance,204,No,Declining,5.0,142,Ambiguous,Yes,Coal,High,Yes
+Macao,62,0.27,Friendly,5.1%,"Ethereum, Polkadot",52%,Kraken,220,No,Growing,11.79,1496,Ambiguous,No,Coal,Medium,Yes
+Saint Martin (French part),166,0.56,Banned,8.7%,"Bitcoin, Ethereum",67%,Binance,148,No,Declining,8.97,1319,None,Yes,Mixed,High,No
+Morocco,75,0.25,Restricted,3.2%,"Bitcoin, Ethereum",27%,Coinbase,277,Yes,Growing,10.09,280,None,Yes,Mixed,None,Yes
+Monaco,72,0.41,Friendly,4.4%,"Ethereum, Polkadot",44%,Binance,155,Yes,Stable,9.58,830,None,Yes,Mixed,None,No
+"Moldova, Republic of",143,0.29,Unknown,4.8%,"Bitcoin, Ethereum",27%,Binance,177,Yes,Stable,12.04,708,Clear,No,Renewable,None,Yes
+Madagascar,185,0.22,Banned,8.6%,"Ethereum, Polkadot",62%,Coinbase,263,No,Declining,8.81,1418,Ambiguous,Yes,Mixed,Medium,Yes
+Maldives,43,0.39,Friendly,5.0%,"Bitcoin, USDT",51%,None,111,Yes,Declining,8.55,236,Ambiguous,Yes,Mixed,None,Yes
+Marshall Islands,160,0.26,Banned,6.2%,"Bitcoin, USDT",52%,None,114,Yes,Growing,8.17,244,Clear,No,Coal,Medium,No
+North Macedonia,157,0.47,Restricted,1.0%,"Bitcoin, USDT",40%,Kraken,149,Yes,Declining,0.6,1287,None,Yes,Unknown,High,Ongoing
+Mali,59,0.65,Friendly,2.6%,"Ethereum, Polkadot",14%,Kraken,252,Yes,Growing,11.38,25,Clear,No,Coal,Medium,Ongoing
+Malta,40,0.25,Restricted,5.3%,"Bitcoin, USDT",67%,Binance,235,Yes,Declining,6.65,683,Ambiguous,No,Unknown,Medium,No
+Myanmar,152,0.39,Friendly,0.2%,"Ethereum, Polkadot",45%,Binance,19,Yes,Stable,7.03,1170,None,No,Unknown,None,No
+Montenegro,113,0.66,Restricted,3.6%,"Bitcoin, Ethereum",28%,Binance,93,Yes,Growing,8.52,390,None,No,Renewable,None,Yes
+Mongolia,72,0.56,Friendly,2.2%,"Bitcoin, USDT",16%,Binance,35,No,Stable,13.59,1472,None,Yes,Mixed,High,Yes
+Northern Mariana Islands,59,0.41,Unknown,2.9%,"Ethereum, Polkadot",61%,Kraken,275,No,Growing,0.02,222,None,No,Coal,None,Yes
+Mozambique,100,0.49,Banned,5.4%,"Bitcoin, Ethereum",49%,Binance,206,No,Declining,11.8,1123,Clear,No,Coal,Low,No
+Mauritania,110,0.65,Banned,0.4%,"Bitcoin, Ethereum",60%,Coinbase,64,Yes,Growing,3.33,634,Clear,Yes,Renewable,Low,No
+Montserrat,88,0.46,Restricted,9.5%,"Bitcoin, USDT",66%,Coinbase,163,No,Growing,7.77,634,Ambiguous,Yes,Unknown,None,No
+Martinique,94,0.41,Restricted,2.0%,"Bitcoin, USDT",69%,Binance,53,No,Declining,7.04,1212,Ambiguous,Yes,Coal,High,Yes
+Mauritius,80,0.49,Unknown,9.7%,"Ethereum, Polkadot",11%,None,48,Yes,Growing,1.32,442,Ambiguous,Yes,Renewable,High,No
+Malawi,48,0.27,Unknown,9.0%,"Bitcoin, USDT",34%,Coinbase,197,Yes,Stable,4.22,1010,Clear,Yes,Unknown,None,Yes
+Mayotte,95,0.36,Unknown,5.9%,"Ethereum, Polkadot",11%,Coinbase,224,No,Stable,6.2,99,Clear,No,Coal,None,Ongoing
+Namibia,107,0.54,Unknown,2.8%,"Ethereum, Polkadot",23%,Coinbase,269,No,Stable,1.4,218,None,Yes,Coal,Medium,Ongoing
+New Caledonia,43,0.37,Restricted,6.7%,"Bitcoin, USDT",67%,None,137,Yes,Growing,0.16,882,None,Yes,Mixed,Medium,No
+Niger,167,0.31,Unknown,5.3%,"Bitcoin, USDT",34%,Kraken,210,No,Stable,0.43,1146,Ambiguous,Yes,Unknown,None,Ongoing
+Norfolk Island,104,0.54,Banned,7.5%,"Bitcoin, Ethereum",49%,Binance,213,No,Declining,6.47,983,Ambiguous,Yes,Mixed,None,No
+Nicaragua,54,0.41,Unknown,4.0%,"Ethereum, Polkadot",21%,Kraken,164,No,Declining,10.71,1132,None,Yes,Mixed,Medium,Ongoing
+Niue,119,0.48,Unknown,5.4%,"Bitcoin, USDT",70%,None,75,No,Declining,8.08,496,None,No,Coal,Medium,No
+Norway,169,0.64,Banned,3.0%,"Bitcoin, USDT",63%,Kraken,200,No,Stable,4.33,604,Clear,No,Mixed,High,Yes
+Nepal,87,0.43,Banned,7.3%,"Bitcoin, Ethereum",14%,Kraken,270,No,Declining,13.68,291,None,Yes,Unknown,High,No
+Nauru,152,0.3,Restricted,7.1%,"Bitcoin, USDT",35%,None,26,Yes,Stable,11.29,129,Ambiguous,Yes,Unknown,None,No
+New Zealand,118,0.38,Banned,6.9%,"Bitcoin, USDT",20%,Kraken,224,No,Declining,13.67,471,Clear,Yes,Mixed,High,Yes
+Oman,183,0.58,Restricted,6.4%,"Bitcoin, USDT",58%,None,204,Yes,Stable,0.65,1106,Ambiguous,Yes,Unknown,None,Yes
+Panama,166,0.58,Unknown,3.7%,"Bitcoin, USDT",16%,None,18,Yes,Declining,10.44,200,Clear,Yes,Unknown,High,No
+Pitcairn,193,0.37,Friendly,2.7%,"Ethereum, Polkadot",30%,Kraken,8,No,Declining,2.94,209,Clear,Yes,Mixed,None,No
+Peru,55,0.56,Banned,8.3%,"Bitcoin, Ethereum",52%,Kraken,18,Yes,Declining,3.6,520,Ambiguous,Yes,Renewable,High,No
+Palau,31,0.56,Restricted,4.6%,"Bitcoin, USDT",17%,Kraken,25,No,Declining,10.68,169,Clear,Yes,Unknown,Low,Yes
+Papua New Guinea,165,0.59,Restricted,0.5%,"Bitcoin, USDT",57%,Kraken,30,No,Declining,1.98,1089,Ambiguous,No,Mixed,None,Ongoing
+Poland,164,0.28,Restricted,4.6%,"Ethereum, Polkadot",62%,None,53,Yes,Stable,12.12,1295,Ambiguous,Yes,Renewable,High,Yes
+Puerto Rico,93,0.68,Banned,0.3%,"Ethereum, Polkadot",15%,Coinbase,278,No,Growing,2.4,941,None,No,Renewable,Medium,Yes
+"Korea, Democratic People's Republic of",43,0.23,Banned,8.5%,"Bitcoin, USDT",44%,None,216,No,Declining,5.59,994,Clear,Yes,Mixed,High,No
+Portugal,47,0.34,Friendly,5.9%,"Bitcoin, Ethereum",68%,Coinbase,238,No,Stable,13.08,338,None,Yes,Coal,High,Ongoing
+Paraguay,134,0.27,Friendly,9.1%,"Bitcoin, USDT",61%,Coinbase,131,Yes,Stable,8.15,1415,Ambiguous,Yes,Mixed,Low,No
+"Palestine, State of",189,0.47,Restricted,1.5%,"Bitcoin, USDT",35%,Kraken,10,No,Stable,12.99,1304,None,Yes,Renewable,Medium,Ongoing
+French Polynesia,93,0.57,Friendly,5.0%,"Bitcoin, USDT",19%,None,152,No,Declining,14.5,373,Ambiguous,Yes,Coal,High,No
+Qatar,35,0.33,Unknown,8.9%,"Ethereum, Polkadot",28%,None,93,No,Stable,1.11,188,Ambiguous,Yes,Renewable,Medium,Ongoing
+Réunion,130,0.64,Banned,7.6%,"Ethereum, Polkadot",45%,Binance,205,Yes,Stable,13.95,463,Ambiguous,No,Unknown,None,Yes
+Romania,150,0.34,Restricted,6.0%,"Bitcoin, Ethereum",69%,Binance,56,No,Declining,6.33,1112,Ambiguous,No,Coal,Low,No
+Russian Federation,67,0.7,Unknown,9.7%,"Bitcoin, USDT",24%,Coinbase,130,Yes,Stable,7.78,541,None,Yes,Unknown,None,Yes
+Rwanda,104,0.45,Banned,4.5%,"Ethereum, Polkadot",42%,Coinbase,111,No,Stable,4.99,1419,Ambiguous,No,Unknown,None,Yes
+Sudan,163,0.55,Restricted,8.4%,"Bitcoin, Ethereum",34%,None,271,No,Stable,7.47,1,Ambiguous,No,Coal,None,Ongoing
+Senegal,136,0.54,Friendly,6.8%,"Bitcoin, Ethereum",25%,Binance,8,No,Declining,8.29,1281,Ambiguous,Yes,Coal,Medium,No
+South Georgia and the South Sandwich Islands,113,0.45,Unknown,3.6%,"Bitcoin, Ethereum",45%,Binance,270,Yes,Stable,6.41,814,Clear,Yes,Mixed,High,No
+"Saint Helena, Ascension and Tristan da Cunha",38,0.65,Restricted,3.3%,"Ethereum, Polkadot",23%,None,121,Yes,Stable,5.22,232,Ambiguous,No,Coal,None,No
+Svalbard and Jan Mayen,190,0.47,Unknown,6.2%,"Ethereum, Polkadot",21%,Coinbase,93,No,Growing,7.6,55,Ambiguous,No,Renewable,High,No
+Solomon Islands,106,0.56,Friendly,5.1%,"Bitcoin, USDT",36%,None,215,Yes,Stable,9.33,617,Ambiguous,No,Mixed,None,Yes
+Sierra Leone,160,0.24,Unknown,5.8%,"Bitcoin, USDT",55%,Kraken,250,No,Declining,6.51,235,Clear,No,Renewable,Low,No
+El Salvador,153,0.35,Banned,9.7%,"Ethereum, Polkadot",18%,None,86,No,Stable,9.3,457,None,Yes,Coal,Medium,No
+San Marino,128,0.32,Banned,6.3%,"Ethereum, Polkadot",70%,None,141,Yes,Growing,5.01,1191,None,No,Renewable,Medium,Ongoing
+Somalia,142,0.55,Unknown,9.6%,"Ethereum, Polkadot",49%,Binance,129,No,Stable,2.0,826,None,No,Coal,None,No
+Saint Pierre and Miquelon,55,0.69,Banned,6.7%,"Bitcoin, USDT",34%,Kraken,185,Yes,Declining,5.96,117,Clear,No,Unknown,Low,Ongoing
+Serbia,152,0.67,Restricted,9.7%,"Ethereum, Polkadot",19%,Coinbase,211,No,Growing,3.27,224,None,No,Renewable,None,Yes
+South Sudan,107,0.58,Restricted,9.5%,"Ethereum, Polkadot",13%,Binance,97,No,Declining,7.13,35,None,No,Coal,None,Yes
+Sao Tome and Principe,37,0.53,Banned,2.7%,"Bitcoin, USDT",43%,Coinbase,251,Yes,Stable,10.8,1431,Ambiguous,Yes,Renewable,High,Yes
+Suriname,152,0.47,Friendly,6.8%,"Ethereum, Polkadot",10%,Coinbase,109,No,Stable,10.36,402,Clear,Yes,Unknown,High,Ongoing
+Slovakia,67,0.45,Restricted,3.1%,"Ethereum, Polkadot",69%,None,210,Yes,Growing,1.81,1125,Clear,Yes,Renewable,Medium,Yes
+Slovenia,53,0.39,Restricted,3.9%,"Ethereum, Polkadot",22%,None,73,Yes,Stable,5.36,1345,Clear,No,Coal,Medium,No
+Eswatini,91,0.53,Unknown,8.3%,"Bitcoin, Ethereum",15%,Binance,138,Yes,Growing,14.42,1494,None,Yes,Mixed,Low,Ongoing
+Sint Maarten (Dutch part),182,0.45,Restricted,1.1%,"Ethereum, Polkadot",60%,Kraken,260,No,Declining,10.54,1387,None,No,Mixed,High,No
+Seychelles,60,0.24,Friendly,6.8%,"Bitcoin, USDT",66%,Binance,60,No,Declining,8.1,1124,None,Yes,Renewable,Low,Ongoing
+Syrian Arab Republic,155,0.5,Unknown,5.8%,"Bitcoin, USDT",49%,Kraken,179,No,Growing,8.72,1107,None,No,Renewable,None,Ongoing
+Turks and Caicos Islands,137,0.7,Restricted,8.5%,"Ethereum, Polkadot",13%,Coinbase,194,Yes,Growing,14.41,383,Ambiguous,Yes,Coal,None,Yes
+Chad,126,0.44,Unknown,3.1%,"Bitcoin, USDT",34%,Binance,236,No,Stable,4.68,1400,Clear,Yes,Mixed,Low,Yes
+Togo,173,0.66,Friendly,1.2%,"Ethereum, Polkadot",56%,Kraken,208,No,Declining,8.64,726,Ambiguous,Yes,Mixed,High,Yes
+Tajikistan,145,0.65,Unknown,5.5%,"Ethereum, Polkadot",14%,Binance,263,Yes,Growing,11.98,245,None,Yes,Unknown,Low,Ongoing
+Tokelau,152,0.48,Unknown,2.4%,"Bitcoin, USDT",52%,Binance,8,Yes,Stable,4.71,489,Clear,No,Coal,Medium,Ongoing
+Turkmenistan,139,0.59,Friendly,2.5%,"Bitcoin, USDT",12%,Binance,18,No,Stable,10.82,1237,Ambiguous,Yes,Renewable,None,Yes
+Timor-Leste,89,0.29,Unknown,7.7%,"Bitcoin, Ethereum",69%,None,57,No,Growing,13.25,1007,Clear,No,Unknown,Low,No
+Tonga,36,0.4,Restricted,1.6%,"Ethereum, Polkadot",50%,None,70,Yes,Stable,0.82,922,Clear,Yes,Coal,High,Ongoing
+Trinidad and Tobago,146,0.55,Banned,4.8%,"Bitcoin, USDT",12%,None,49,No,Growing,12.62,1366,Clear,No,Coal,None,No
+Tunisia,178,0.62,Friendly,6.2%,"Bitcoin, USDT",42%,Binance,144,Yes,Growing,4.7,1111,None,Yes,Coal,None,Ongoing
+Tuvalu,188,0.23,Restricted,3.1%,"Ethereum, Polkadot",48%,None,164,Yes,Growing,1.3,262,None,No,Mixed,Low,No
+"Taiwan, Province of China",134,0.29,Banned,1.0%,"Ethereum, Polkadot",28%,Binance,116,No,Declining,6.24,645,None,Yes,Mixed,None,Yes
+"Tanzania, United Republic of",65,0.33,Banned,9.8%,"Bitcoin, Ethereum",46%,Coinbase,262,No,Growing,0.34,961,Clear,No,Mixed,High,Yes
+Uganda,166,0.55,Unknown,8.1%,"Bitcoin, Ethereum",20%,None,49,No,Declining,9.3,80,Clear,Yes,Unknown,None,Ongoing
+United States Minor Outlying Islands,118,0.56,Friendly,6.4%,"Bitcoin, USDT",23%,Binance,137,No,Declining,4.78,1090,Clear,Yes,Unknown,Medium,No
+Uruguay,59,0.62,Banned,7.3%,"Bitcoin, Ethereum",27%,None,251,No,Stable,1.36,477,Ambiguous,No,Mixed,None,Yes
+United States,160,0.28,Banned,8.5%,"Bitcoin, Ethereum",51%,None,65,Yes,Declining,13.83,1478,None,No,Renewable,Medium,Yes
+Uzbekistan,71,0.36,Banned,3.3%,"Ethereum, Polkadot",18%,Binance,29,No,Stable,8.4,837,None,Yes,Coal,Medium,Ongoing
+Holy See (Vatican City State),75,0.57,Unknown,6.1%,"Bitcoin, USDT",37%,Coinbase,271,Yes,Stable,6.43,712,Clear,Yes,Unknown,None,Yes
+Saint Vincent and the Grenadines,47,0.29,Restricted,1.1%,"Bitcoin, USDT",32%,Binance,128,No,Stable,9.32,163,Ambiguous,Yes,Mixed,High,No
+"Venezuela, Bolivarian Republic of",142,0.23,Banned,6.6%,"Bitcoin, USDT",40%,Binance,140,Yes,Stable,6.35,572,Ambiguous,Yes,Unknown,Low,No
+"Virgin Islands, British",140,0.31,Friendly,5.5%,"Bitcoin, USDT",64%,None,76,Yes,Declining,3.85,791,None,No,Renewable,None,Yes
+"Virgin Islands, U.S.",116,0.24,Unknown,4.9%,"Bitcoin, USDT",29%,None,31,No,Growing,13.58,101,None,Yes,Renewable,None,No
+Viet Nam,193,0.62,Friendly,6.4%,"Bitcoin, Ethereum",43%,Coinbase,38,Yes,Declining,13.48,310,None,Yes,Mixed,Low,No
+Vanuatu,161,0.37,Restricted,9.2%,"Bitcoin, Ethereum",27%,Coinbase,276,Yes,Stable,9.32,338,None,Yes,Mixed,High,Yes
+Wallis and Futuna,176,0.58,Friendly,5.7%,"Bitcoin, USDT",15%,Kraken,299,No,Stable,2.56,483,Clear,No,Coal,None,No
+Samoa,185,0.21,Restricted,3.4%,"Bitcoin, USDT",23%,Binance,79,No,Declining,8.86,686,Clear,No,Mixed,High,Yes
+Yemen,92,0.24,Banned,6.6%,"Bitcoin, USDT",20%,None,234,No,Growing,10.05,536,Ambiguous,Yes,Coal,High,Yes
+Zambia,145,0.35,Restricted,1.4%,"Bitcoin, Ethereum",69%,Binance,254,No,Growing,14.72,878,None,Yes,Mixed,Low,Yes
+Zimbabwe,41,0.44,Banned,2.2%,"Ethereum, Polkadot",10%,None,105,No,Growing,0.49,1329,None,Yes,Coal,High,No

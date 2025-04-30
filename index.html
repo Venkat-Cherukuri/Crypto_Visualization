@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rise and Fall of Cryptocurrency</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Cryptocurrency Report</h1>
+  <div id="controls">
+    <label for="coinSelector">Select Coin:</label>
+    <select id="coinSelector"></select>
+
+    <label for="metricSelector">Select Metric:</label>
+    <select id="metricSelector">
+      <option value="Close">Price (Close)</option>
+      <option value="Volume">Volume</option>
+      <option value="Marketcap">Market Cap</option>
+    </select>
+  </div>
+</header>
+
+<main>
+  <div id="lineChart"></div>
+</main>
+
+<div id="tooltip"></div>
+
+<footer>
+  <p>Confidential Document</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

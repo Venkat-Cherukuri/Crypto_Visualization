@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Country Profile - Radar Chart</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    html, body {
+      height: auto;
+      min-height: 100vh;
+      overflow-y: auto;
+      margin: 0;
+      padding: 0 20px 100px;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+      color: #333;
+      text-align: center;
+    }
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #2a2a2a;
+    }
+    select {
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid #999;
+      font-size: 14px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      color: #333;
+      transition: box-shadow 0.3s;
+    }
+    select:hover {
+      border-color: #00b4d8;
+      box-shadow: 0 0 8px rgba(0, 180, 216, 0.3);
+    }
+    #radarContainer {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    #flag {
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+    .caption {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Crypto Profile by Country</h2>
+  <label for="countrySelect">Select a Country:</label>
+  <select id="countrySelect"></select>
+  <img id="flag" width="32" height="24" alt="flag" />
+  <p class="caption">National Crypto Engagement.</p>
+
+  <div id="radarContainer">
+    <canvas id="radarChart"></canvas>
+  </div>
+
+  <script>
+    const radarLabels = [
+      "Adoption Score",
+      "Wallet Usage",
+      "Mining Share",
+      "Education",
+      "ATMs",
+      "NFT Adoption",
+      "CBDC"
+    ];
+
+    const countryData = {};
+    const countryISO = {
+      "United States": "us",
+      "India": "in",
+      "Germany": "de",
+      "France": "fr",
+      "Japan": "jp",
+      "Brazil": "br",
+      "United Kingdom": "gb",
+      "Canada": "ca",
+      "Australia": "au",
+      "China": "cn"
+    };
+
+    const ctx = document.getElementById('radarChart').getContext('2d');
+    let radarChart = new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels: radarLabels,
+        datasets: [{
+          label: '',
+          data: [],
+          fill: true,
+          backgroundColor: 'rgba(0, 191, 165, 0.2)',
+          borderColor: 'rgba(0, 150, 136, 1)',
+          pointBackgroundColor: 'rgba(0, 150, 136, 1)',
+          pointBorderColor: '#fff',
+          pointHoverBackgroundColor: '#fff',
+          pointHoverBorderColor: 'rgba(0, 150, 136, 1)'
+        }]
+      },
+      options: {
+        responsive: true,
+        animation: {
+          duration: 1000,
+          easing: 'easeOutElastic'
+        },
+        plugins: {
+          legend: {
+            labels: {
+              color: '#333',
+              font: {
+                size: 14
+              }
+            }
+          },
+          tooltip: {
+            backgroundColor: '#222',
+            titleColor: '#00e5ff',
+            bodyColor: '#fff',
+            cornerRadius: 6,
+            usePointStyle: true,
+            padding: 12,
+            animation: {
+              duration: 500,
+              easing: 'easeInOutCubic'
+            },
+            callbacks: {
+              label: function(context) {
+                return `${context.label}: ${context.raw.toFixed(1)}%`;
+              }
+            }
+          }
+        },
+        scales: {
+          r: {
+            beginAtZero: true,
+            max: 100,
+            min: 0,
+            ticks: {
+              stepSize: 20,
+              color: '#555'
+            },
+            grid: {
+              color: 'rgba(0,0,0,0.1)'
+            },
+            angleLines: {
+              color: 'rgba(0,0,0,0.1)'
+            },
+            pointLabels: {
+              color: '#333',
+              font: {
+                size: 13,
+                weight: 'bold'
+              }
+            }
+          }
+        }
+      }
+    });
+
+    function normalize(value, max = 100) {
+      return isNaN(+value) ? 0 : Math.min((+value / max) * 100, 100);
+    }
+
+    d3.csv("Crypto_dataset/Global_data.csv").then(data => {
+      const select = document.getElementById('countrySelect');
+
+      data.forEach(d => {
+        const name = d.Country;
+        countryData[name] = {
+          label: name,
+          data: [
+            normalize(d.Adoption_Score, 1),
+            normalize(d.Wallet_Usage_Rate),
+            normalize(d.Mining_Share),
+            d.Education_Initiatives === 'Yes' ? 100 : 0,
+            Math.min(normalize(d.Crypto_ATMs, 2000) * 5, 100),
+            d.NFT_Adoption === 'High' ? 100 : d.NFT_Adoption === 'Medium' ? 50 : 25,
+            d.CBDC_Development === 'Yes' ? 100 : 0
+          ]
+        };
+
+        const option = document.createElement('option');
+        option.value = name;
+        option.textContent = name;
+        select.appendChild(option);
+      });
+
+      const firstCountry = Object.keys(countryData)[0];
+      updateRadarChart(firstCountry);
+
+      select.addEventListener('change', function () {
+        updateRadarChart(this.value);
+      });
+    });
+
+    function updateRadarChart(country) {
+      radarChart.data.labels = radarLabels;
+      radarChart.data.datasets[0].label = country;
+      radarChart.data.datasets[0].data = countryData[country].data;
+      radarChart.update();
+      const iso = countryISO[country] || '';
+      const flag = document.getElementById('flag');
+      flag.src = iso ? `https://flagcdn.com/32x24/${iso}.png` : '';
+      flag.alt = iso ? `${country} flag` : '';
+    }
+  </script>
+</body>
+</html>

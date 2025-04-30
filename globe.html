@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced Crypto Globe</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="globe.css">
+
+  <!-- D3 & TopoJSON -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body>
+
+  <!-- Loading Spinner -->
+  <div id="loading-spinner">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <h1>Global Crypto Adoption</h1>
+    <p class="subtitle">Click to dive in</p>
+    <div style="margin-top: 10px;">
+      <input id="country-search" type="text" placeholder="Search country..." style="padding: 6px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 14px; width: 200px;">
+    </div>
+  </header>
+
+  <!-- Main Layout: Globe and Panels -->
+  <div id="main-content" style="display: flex; flex-direction: row; width: 100%; height: 80vh;">
+
+    <!-- Globe Container -->
+    <div id="globe-container" style="flex: 2; position: relative;">
+      <svg id="globe"></svg>
+    </div>
+
+    <!-- Right Panel (Info + Chart) -->
+    <div id="info-panel" style="flex: 1; padding: 20px; background: #f9f9f9; overflow-y: auto;">
+
+      <!-- Popup Content Displayed in Place -->
+      <div id="popup-content"></div>
+      <div id="popup-extended-info"></div>
+
+      <!-- Chart -->
+      <h4 style="margin-top: 20px;">Volume Chart</h4>
+      <svg id="volume-chart" width="100%" height="300"></svg>
+
+    </div>
+  </div>
+
+  <!-- Tooltip -->
+  <div id="tooltip"></div>
+
+  <!-- Footer -->
+  <footer style="text-align: center; margin-top: 20px; font-family: Poppins, sans-serif; font-size: 0.9em; color: #555;">
+    <p><strong>Crypto Intelligence, Mapped.</strong></p>
+    <p>Visualizing global adoption trends with real-time data and interactive insight.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="globe.js"></script>
+  <script>
+    document.getElementById('country-search').addEventListener('input', function () {
+      const query = this.value.toLowerCase();
+      const paths = document.querySelectorAll('#globe path');
+      paths.forEach(path => {
+        const country = path.__data__.properties.name.toLowerCase();
+        path.style.opacity = country.includes(query) ? '1' : '0.2';
+      });
+    });
+  </script>
+
+</body>
+</html>
